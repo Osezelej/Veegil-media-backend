@@ -1,0 +1,62 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type User {
+  id: ID!
+  email: String!
+  username: String!
+  phoneNumber: String!
+  acctBalance: String!
+  txPin: String!
+}
+
+type LoginResposeType {
+  access_token: String!
+  user: User!
+}
+
+type TransactionType {
+  id: ID!
+  acctNo: String!
+  to: String!
+  from: String!
+  txType: String!
+  txAmount: String!
+  txDate: String!
+  txTime: String!
+}
+
+type Query {
+  login(loginInput: LoginUserInput!): LoginResposeType!
+  getTransaction(acctno: String!): [TransactionType!]!
+  transaction(id: Int!): TransactionType!
+}
+
+input LoginUserInput {
+  phoneNumber: String!
+  password: String!
+}
+
+type Mutation {
+  signup(createuser: CreateUserInput!): User!
+  createTransactions(createTransactionInput: CreateTransactionInput!): TransactionType!
+}
+
+input CreateUserInput {
+  email: String!
+  username: String!
+  password: String!
+  phoneNumber: String!
+  txPin: String!
+}
+
+input CreateTransactionInput {
+  phoneNumber: String!
+  to: String!
+  username: String!
+  txType: String!
+  txAmount: String!
+  txDate: String!
+  txTime: String!
+}
