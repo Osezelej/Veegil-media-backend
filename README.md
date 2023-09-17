@@ -1,4 +1,3 @@
-
 <h1>
   Osezele Joseph Anubahimendo 
   
@@ -15,7 +14,7 @@ hope I was able to impress you.
   Enjoy reading
 </p>
 
- <p><a href="https://cdv7dp-3000.csb.app">https://cdv7dp-3000.csb.app</a> click on the link to see the front end of Veegil bank app. (Note: this app is a mobile & tablet first oriented design to get the best user experience. inspect the design on chrome or any browser of your choice or mobile device) </p>
+ <p><a href="https://cpcy2j-4000.csb.app/graphql">https://cpcy2j-4000.csb.app/graphql</a> click on the link to access the graphql playground </p>
  
 
 <h1>Veegil media Demo Bank App by osezele joseph</h1>
