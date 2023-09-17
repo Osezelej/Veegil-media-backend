@@ -12,6 +12,8 @@ hope I was able to impress you.
   Enjoy reading
 </p>
 
+ <p><a href="https://cpcy2j-4000.csb.app/graphql">https://cpcy2j-4000.csb.app/graphql</a> click on the link to access the graphql playground </p>
+ 
 
 <h1>Veegil media Demo Bank App by osezele joseph</h1>
 This app was created with nest js with endpoint implemented with graphql.
